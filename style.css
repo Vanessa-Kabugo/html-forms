@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    border: 5px solid green;
+}
+.float-image{
+float: left;
+}
+
+
+.a{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 3px solid black;
+    display: inline;
+}
+.b{
+    color: blue;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 3px solid black;
+    display: inline-block;
+}
+.c{
+    width: 100px;
+    height: 100px;
+
+    padding: 5px;
+    border: 3px solid black;
+    display: block;
+}
+.div1{
+    width: 300px;
+    height: 100px;
+    border: 3px solid blueviolet;
+    box-sizing: border-box;
+}
+.div2{
+    width: 300px;
+    height: 100px;
+    padding: 5px;
+    border: 3px solid blueviolet;
+    box-sizing: border-box;
+}
